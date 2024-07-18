@@ -1,0 +1,19 @@
+{
+    "run_name": "pwkrr_ck_single",
+    "data_path": "data/prepped_activities_all_chembl_pubchem.csv",
+    "protein_kernel": "normalized_ssw",
+    "ligand_features": [
+        [
+            "morgan",
+            {
+                "n_bits": 1024,
+                "radius": 2
+            }
+        ]
+    ],
+    "split": "ck",
+    "max_iter": 1000,
+    "alpha": 0.005,
+    "store_eigs": false,
+    "stage": "single"
+}

@@ -1,0 +1,4 @@
+{
+    "run_name": "sd_rfr",
+    "data_path": "data/prepped_labeled_single_dose_data.csv"
+}
