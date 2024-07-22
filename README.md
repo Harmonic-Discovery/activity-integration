@@ -34,4 +34,22 @@ python train_pwkrr.py --config pwkrr_config.json
 
 ## Reproducing figures
 
-TODO
+See `figures/` for code/data to reproduce figures appearing in the paper.
+
+## Citation
+
+Pre-print:
+
+```bibtex
+@article {Leveraging-multiple-data-types,
+	author = {Theisen, Ryan and Wang, Tianduanyi and Ravikumar, Balaguru and Rahman, Rayees and Cicho{\'n}ska, Anna},
+	title = {Leveraging multiple data types for improved compound-kinase bioactivity prediction},
+	elocation-id = {2024.03.07.583951},
+	year = {2024},
+	doi = {10.1101/2024.03.07.583951},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2024/04/16/2024.03.07.583951},
+	eprint = {https://www.biorxiv.org/content/early/2024/04/16/2024.03.07.583951.full.pdf},
+	journal = {bioRxiv}
+}
+```
