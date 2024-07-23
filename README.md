@@ -32,6 +32,23 @@ The model can be trained using
 python train_pwkrr.py --config pwkrr_config.json
 ```
 
+## Software and package versions
+- python=3.9
+- cython
+- pip=22.3.1
+- mkl=2021
+- blas=1.0=mkl
+
+pip:
+- pandas==2.2.2
+- rdkit==2023.9.5
+- scikit-learn==1.4.2
+- scikit-bio==0.6.0
+- scipy==1.13.0
+- numpy==1.26.4
+- joblib==1.4.0
+
+
 ## Reproducing figures
 
 See `figures/` for code/data to reproduce figures appearing in the paper.
